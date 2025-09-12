@@ -1,0 +1,470 @@
+/* reset styles */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/*----------- selectors -----------*/
+
+
+/* color */
+
+.color-fff {
+    color: #fff;
+}
+
+.color-green {
+    color: #003500;
+}
+
+.color-yellow {
+    color: #FFC107;
+}
+
+.color-white {
+    color: #B4C8B1;
+}
+
+
+/* background color */
+
+.bg-color-green {
+    background-color: #003500;
+}
+
+.bg-color-yellow {
+    background-color: #FFC107;
+}
+
+.bg-color-white {
+    background-color: #B4C8B1;
+}
+
+.bg-color-transparent {
+    background-color: transparent;
+}
+
+
+/* display styles */
+
+.Dis-inline {
+    display: inline;
+}
+
+.Dis-block {
+    display: block;
+}
+
+.Dis-inline-block {
+    display: inline-block;
+}
+
+.Dis-flex {
+    display: flex;
+}
+
+
+/* display-flex-property */
+
+.flex-dir-column {
+    flex-direction: column;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+
+.justify-content-between {
+    justify-content: space-between;
+}
+
+.justify-content-evenly {
+    justify-content: space-evenly;
+}
+
+.justify-content-around {
+    justify-content: space-around;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.gap-1 {
+    gap: 1rem;
+}
+
+.gap-2 {
+    gap: 2rem;
+}
+
+
+/* list styles*/
+
+.li-style-type-none {
+    list-style-type: none;
+}
+
+
+/* width styles */
+
+.width-auto {
+    width: auto;
+}
+
+.width-100 {
+    width: 100%;
+}
+
+.width-80 {
+    width: 80%;
+}
+
+.width-70 {
+    width: 70%;
+}
+
+.width-50 {
+    width: 50%;
+}
+
+.width-25 {
+    width: 25%;
+}
+
+.width-20 {
+    width: 23%;
+}
+
+
+/* height styles */
+
+.height-auto {
+    height: auto;
+}
+
+.height-100 {
+    height: 100%;
+}
+
+.height-50 {
+    height: 50%;
+}
+
+.height-25 {
+    height: 25%;
+}
+
+/* position styles */
+
+.pos-relative {
+    position: relative;
+}
+
+.pos-absolute {
+    position: absolute;
+}
+
+.top-1 {
+    top: 1rem;
+}
+
+
+/* margin */
+.M-top-1 {
+    margin-top: 1rem;
+}
+
+.M-top-2 {
+    margin-top: 2rem;
+}
+
+.M-top-5 {
+    margin-top: 5rem;
+}
+
+.M-bottom-5 {
+    margin-bottom: 5rem;
+}
+
+/* font size  */
+.font-size-3 {
+    font-size: 3rem;
+}
+
+
+/* text styles */
+
+.text-1 {
+    font-size: .5rem;
+}
+
+.text-2 {
+    font-size: 1rem;
+}
+
+.text-3 {
+    font-size: 1.5rem;
+}
+
+.text-4 {
+    font-size: 2rem;
+}
+
+.text-5 {
+    font-size: 2.5rem;
+}
+
+.text-6 {
+    font-size: 3rem;
+}
+
+
+
+
+/*------- index styles -------*/
+
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/*------ header */
+
+.header {
+    padding: 2rem 0;
+}
+
+.search-box {
+    height: 35px;
+}
+
+.search-box input,
+.search-box select {
+    font-family: inherit;
+    color: inherit;
+    border: 2px solid white;
+    padding: 0 .5rem;
+}
+
+.search-box input {
+    padding-left: 3rem !important;
+}
+
+.search-box select option {
+    color: black;
+    background-color: #FFC107;
+}
+
+.search-box img {
+    top: 50%;
+    right: 50%;
+    left: 1rem;
+    transform: translate(-50%, -50%);
+}
+
+.profile,
+.Wishlist,
+.MyCart {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+/*------- baner section */
+
+.baner {
+    padding: 10rem 0 5rem 10rem;
+}
+
+.baner-text {
+    width: 50%;
+}
+
+.baner-text h1 {
+    font-size: 5rem;
+}
+
+.baner-text p {
+    font-size: 1.5rem;
+    line-height: 1.5;
+}
+
+.Daily {
+    padding: .7rem 1.2rem;
+    border-radius: 1rem;
+}
+
+.baner-btn {
+    padding: .7rem 1.2rem;
+    border-radius: .7rem;
+    border: none;
+}
+
+.baner-btn a {
+    text-decoration: none;
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+
+.star-header-box {
+    top: 20%;
+    left: 40%;
+}
+
+.star-header-box span {
+    color: #fff;
+    font-size: 1.3rem;
+    font-weight: 600;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.fruit-header {
+    width: 45%;
+    right: 0;
+    bottom: 0;
+}
+
+
+
+/*-------- Categories styles */
+
+.Categories-box {
+    flex-direction: column;
+}
+
+.Categories-header p {
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.Categories-gallary {
+    flex-wrap: wrap;
+}
+
+.Categories-gallary-items {
+    border-radius: 1rem;
+    overflow: hidden;
+}
+
+.Categories-gallary-items img {
+    height: 100%;
+    object-fit: cover;
+}
+
+.gallary-items-text {
+    bottom: 1rem;
+    padding: .5rem;
+    flex-direction: column;
+    z-index: 10;
+}
+
+.gallary-items-text h3 {
+    font-size: 2rem;
+}
+
+.gallary-items-text p {
+    font-size: 1.2rem;
+    width: 100%;
+}
+
+.gallary-items-text button a {
+    font-size: 1rem;
+}
+
+.shadow-for-item {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.632);
+    top: 0;
+    transition: all ease .5s;
+}
+
+.Categories-gallary-items:hover .shadow-for-item {
+    background-color: rgba(0, 0, 0, 0.393);
+}
+
+
+/*------- card section */
+
+.card-items {
+    border: 2px solid #003500;
+    border-radius: 1rem;
+    padding: 1rem;
+}
+
+.card-items>img {
+    width: 100%;
+    height: 50%;
+    object-fit: cover;
+}
+
+.card-items .offer-like-icon {
+    width: 35px;
+    height: 35px;
+    top: 20px;
+    right: 20px;
+}
+
+.card-info {
+    margin: 0 1rem ;
+}
+
+.star {
+    color: #FFC107;
+}
+
+.size-select {
+    border: 2px solid #003500;
+    border-radius: 1rem;
+    padding: 1rem;
+    margin-top: .5rem;
+    width: 100%;
+    height: 100%;
+}
+
+.Pics {
+    top: 1.5rem;
+    right: 1.5rem;
+}
+
+.Quantity-box input {
+    padding-inline: 2rem;
+}
+
+.plus {
+    right: .8rem;
+    top: .8rem;
+}
+
+.less {
+    left: .8rem;
+    top: .8rem;
+}
+
+
+/*------- card and list section  */
+
+.border-white {
+    border: 2px solid white;
+}
+
+.card-list {
+    margin: 3rem 0 1rem 0;
+}
+
+.card-list li:focus {
+    color: #FFC107;    
+}
+
+.color-initial {
+    color: initial;
+}
