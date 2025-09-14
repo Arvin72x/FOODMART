@@ -133,6 +133,13 @@
     gap: 2rem;
 }
 
+.gap-3 {
+    gap: 3rem;
+}
+.gap-4 {
+    gap: 4rem;
+}
+
 
 /* list styles*/
 
@@ -157,6 +164,10 @@
 
 .width-70 {
     width: 70%;
+}
+
+.width-60 {
+    width: 60%;
 }
 
 .width-50 {
@@ -276,6 +287,10 @@
 
 .text-align-justify {
     text-align: justify;
+}
+
+.text-align-center {
+    text-align: center;
 }
 
 .font-W-500 {
@@ -619,4 +634,24 @@ body {
     right: -.9rem;
     top: 50%;
     transform: translate(-50%);
+}
+
+
+/*------- Blog and Articles section */
+
+.Blog-Articles-card-item {
+    border-radius: .5rem;
+    overflow: hidden;
+}
+
+.Blog-Articles-card-item-img {
+    border-radius: .5rem;
+}
+
+.Blog-Articles-card-label {
+    padding: 5px 20px;
+    border-radius: .5rem;
+    top: 1rem;
+    left: 1rem;
+    font-weight: 600;
 }
