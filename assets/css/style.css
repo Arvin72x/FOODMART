@@ -42,6 +42,19 @@
     background-color: #B4C8B1;
 }
 
+.bg-color-oringe {
+    background-color: #E46002;
+}
+
+.bg-color-green-barken {
+    background-color: #327613;
+}
+
+.bg-color-pink {
+    background-color: #EF174B;
+}
+
+
 .bg-color-transparent {
     background-color: transparent;
 }
@@ -72,6 +85,14 @@
     flex-direction: column;
 }
 
+.justify-content-end {
+    justify-content: end;
+}
+
+.justify-content-start {
+    justify-content: start;
+}
+
 .justify-content-center {
     justify-content: center;
 }
@@ -90,6 +111,18 @@
 
 .align-items-center {
     align-items: center;
+}
+
+.align-items-end {
+    align-items: end;
+}
+
+.align-items-start {
+    align-items: start;
+}
+
+.gap-05 {
+    gap: .5rem;
 }
 
 .gap-1 {
@@ -128,6 +161,10 @@
 
 .width-50 {
     width: 50%;
+}
+
+.width-45 {
+    width: 45%;
 }
 
 .width-25 {
@@ -185,6 +222,18 @@
     margin-top: 5rem;
 }
 
+.M-top-10 {
+    margin-top: 10rem;
+}
+
+.M-bottom-3 {
+    margin-bottom: 3rem;
+}
+
+.M-bottom-4 {
+    margin-bottom: 4rem;
+}
+
 .M-bottom-5 {
     margin-bottom: 5rem;
 }
@@ -205,6 +254,10 @@
     font-size: 1rem;
 }
 
+.text-2-5 {
+    font-size: 1.3rem;
+}
+
 .text-3 {
     font-size: 1.5rem;
 }
@@ -219,6 +272,18 @@
 
 .text-6 {
     font-size: 3rem;
+}
+
+.text-align-justify {
+    text-align: justify;
+}
+
+.font-W-500 {
+    font-weight: 500;
+}
+
+.font-W-600 {
+    font-weight: 600;
 }
 
 
@@ -254,7 +319,7 @@ body {
 
 .search-box select option {
     color: black;
-    background-color: #FFC107;
+    background-color: #B4C8B1;
 }
 
 .search-box img {
@@ -292,6 +357,7 @@ body {
 .baner-text p {
     font-size: 1.5rem;
     line-height: 1.5;
+    text-align: justify;
 }
 
 .Daily {
@@ -415,7 +481,7 @@ body {
 }
 
 .card-info {
-    margin: 0 1rem ;
+    margin: 0 1rem;
 }
 
 .star {
@@ -462,9 +528,95 @@ body {
 }
 
 .card-list li:focus {
-    color: #FFC107;    
+    color: #FFC107;
 }
 
 .color-initial {
     color: initial;
+}
+
+
+
+/*------- little Categories section */
+
+.mini-card {
+    border-radius: 1rem;
+    padding: 1.5rem 3rem .5rem 1rem;
+}
+
+.kado {
+    width: 200px;
+    top: -2.5rem;
+    right: -4.5rem;
+}
+
+.banana,
+.aleksandar {
+    width: 170px;
+    top: -2.5rem;
+    right: -4.5rem;
+}
+
+.mali {
+    width: 200px;
+    top: -2rem;
+    right: -3.5rem;
+}
+
+.border-black {
+    border: 2px solid black;
+}
+
+
+/*---------- secend baner section */
+
+.secend-baner {
+    background-color: #2C2A2A8F;
+}
+
+.right-baner {
+    background-image: url(/assets/image/pexels-clem-onojeghuo-175728\ 1.jpg), linear-gradient(to top, rgba(0, 0, 0, 0.595));
+    background-blend-mode: darken;
+    width: 49%;
+}
+
+.left-baner {
+    background-image: url(/assets/image/pexels-clem-onojeghuo-175728\ 1\ \(1\).jpg), linear-gradient(to top, rgba(0, 0, 0, 0.595));
+    background-blend-mode: darken;
+    width: 49%;
+}
+
+.right-baner {
+    padding: 5rem 1rem 2rem 10rem;
+}
+
+.left-baner {
+    padding: 5rem 1rem 2rem 10rem;
+}
+
+
+
+/*------- Comments and opinions section */
+
+.opinions-box {
+    padding-top: 1px;
+}
+
+.Comments {
+    border: 1px solid #003500;
+    border-radius: .5rem;
+    padding: .5rem;
+}
+
+.Comments-direction-left {
+    width: 25px;
+    left: -.2rem;
+    top: 50%;
+}
+
+.Comments-direction-right {
+    width: 25px;
+    right: -.9rem;
+    top: 50%;
+    transform: translate(-50%);
 }
