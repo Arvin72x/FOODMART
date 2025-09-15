@@ -13,7 +13,8 @@
 
     <!-------- header section -------->
 
-    <header class="header color-fff bg-color-green Dis-flex justify-content-evenly align-items-center">
+    <!-- desktop header -->
+    <header id="Header" class="header color-fff bg-color-green Dis-flex justify-content-evenly align-items-center">
 
         <h1>FOODMART</h1>
 
@@ -58,10 +59,19 @@
 
     </header>
 
-    <!-------- baner section -------->
+    <!-- mobile header -->
+    <header class="mobileheader Dis-flex justify-content-center align-items-center bg-color-green pos-relative">
+        <h1 class="color-yellow">FOODMART</h1>
+        <a class="header-target pos-absolute" href="">
+            <img src="/assets/image/menu-svgrepo-com.svg" width="30px" alt="">
+        </a>
+    </header>
 
+    
+    <!-------- main section -------->
     <main class="main">
 
+        <!-------- baner section -------->
         <section class="baner bg-color-yellow pos-relative">
 
             <img class="fruit-header pos-absolute" src="/assets/image/fruit.png" alt="fruit.png">
@@ -91,7 +101,6 @@
         </section>
 
         <!-------- Categories section -------->
-
         <section class="Categories Dis-flex justify-content-center align-items-center">
 
             <div class="Categories-box width-80 Dis-flex M-top-5">
@@ -225,7 +234,6 @@
         </section>
 
         <!-------- card section -------->
-
         <section class="Categories Dis-flex justify-content-center align-items-center">
 
             <div class="Categories-box width-80 Dis-flex M-top-5">
@@ -417,7 +425,6 @@
         </section>
 
         <!-------- card and list section -------->
-
         <section class="Categories Dis-flex justify-content-center align-items-center bg-color-green M-top-5">
 
             <div class="Categories-box width-80 Dis-flex M-top-5">
@@ -617,7 +624,6 @@
         </section>
 
         <!-------- little Categories section -------->
-
         <section class="Categories Dis-flex justify-content-center align-items-center">
 
             <div class="Categories-box width-80 Dis-flex M-top-5 M-bottom-5">
@@ -762,7 +768,6 @@
         </section>
 
         <!-------- secend baner section -------->
-
         <section class="secend-baner Dis-flex justify-content-between M-bottom-3">
             <div class="right-baner">
                 <div class="right-baner-text width-70">
@@ -800,7 +805,6 @@
         </section>
 
         <!-------- Comments and opinions section -------->
-
         <section class="opinions Dis-flex justify-content-center align-items-center M-bottom-4">
 
             <div class="opinions-box width-80 Dis-flex justify-content-between">
@@ -882,7 +886,6 @@
         </section>
 
         <!-------- Blog and Articles section -------->
-
         <section class="Blog-Articles Dis-flex justify-content-center align-items-center M-bottom-4 M-top-5">
 
             <div class="Blog-Articles-box Dis-flex flex-dir-column gap-2 width-80">
@@ -984,8 +987,8 @@
 
 
     <!-------- footer section -------->
-
     <footer class="footer bg-color-green-barken2 Dis-flex justify-content-center align-items-center pos-relative">
+
         <div class="footer-bg-box pos-absolute bg-color-green-barken2"></div>
 
         <div class="footer-box width-80 Dis-flex flex-dir-column gap-10 M-top-5">
@@ -1039,6 +1042,10 @@
         </div>
 
     </footer>
+
+    <a href="#Header">
+        <img class="up-scroll pos-fixed" src="/assets/image/up-direction-svgrepo-com.svg" alt="">
+    </a>
 
 </body>
 

@@ -4,6 +4,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 /*----------- selectors -----------*/
@@ -179,9 +180,6 @@
     width: 60%;
 }
 
-.width-50 {
-    width: 50%;
-}
 
 .width-45 {
     width: 45%;
@@ -243,6 +241,10 @@
 
 .pos-absolute {
     position: absolute;
+}
+
+.pos-fixed {
+    position: fixed;
 }
 
 .top-1 {
@@ -341,6 +343,10 @@ body {
 }
 
 /*-------------------- header ------------ */
+
+.mobileheader {
+    display: none;
+}
 
 .header {
     padding: 2rem 0;
@@ -735,8 +741,147 @@ body {
 }
 
 button {
-   transition: all ease 1s;
+    transition: all ease 1s;
 }
+
 button:hover {
     transform: translateY(-4px);
+}
+
+
+
+/* scroll fexed icon */
+
+.up-scroll {
+    width: 50px;
+    right: 1rem;
+    bottom: 1rem;
+    opacity: 30%;
+    border: 4px solid #003500;
+    border-radius: 100%;
+    transition: all ease 1s;
+}
+
+.up-scroll:hover {
+    opacity: 100%;
+}
+
+
+
+/* Responsive */
+
+
+@media (max-width: 700px) {
+
+    .Dis-flex {
+        flex-wrap: wrap;
+    }
+
+    .width-10 {
+        width: 40%;
+    }
+
+    .width-20 {
+        width: 100%;
+    }
+
+    .width-30 {
+        width: 100%;
+    }
+
+    .width-40 {
+        width: 100%;
+    }
+
+    .width-45 {
+        width: 100%;
+    }
+
+    .width-60 {
+        width: 100%;
+    }
+
+    .header {
+        display: none;
+    }
+
+    .mobileheader {
+        display: flex;
+        padding: 1rem;
+    }
+
+    .header-target {
+        left: 1.5rem;
+        top: 30%;
+    }
+
+    .baner {
+        padding: 2rem 0 5rem 3rem;
+    }
+
+    .baner-text h1 {
+        font-size: 3rem;
+    }
+
+    .baner-text p {
+        font-size: 1rem;
+    }
+
+    .star-header-box {
+        top: 8%;
+        left: 70%;
+    }
+
+    .baner-text {
+        width: 75%;
+    }
+
+    .Categories-header p {
+        font-size: 1.2rem;
+    }
+
+    .baner-btn a {
+        font-size: 1rem;
+    }
+
+    .gallary-items-text {
+        margin: 1rem;
+    }
+
+    .card-list {
+        font-size: .6rem;
+    }
+
+    .little-Categories {
+        justify-content: center;
+        margin-top: 5rem;
+    }
+
+    .mini-card {
+        margin-top: 1rem;
+        padding: 1rem 4rem 2rem 2rem;
+    }
+
+    .Comments-direction-left {
+        display: none;
+    }
+
+    .Comments-direction-right {
+        display: none;
+    }
+
+    .right-baner {
+        width: 100%;
+        padding: 3rem 1rem 2rem 5rem;
+    }
+
+    .left-baner {
+        width: 100%;
+        padding: 3rem 1rem 2rem 5rem;
+    }
+
+    .footer-input-emile input {
+        width: 80%;
+    }
+
 }
