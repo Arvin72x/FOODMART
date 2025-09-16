@@ -60,11 +60,51 @@
     </header>
 
     <!-- mobile header -->
-    <header class="mobileheader Dis-flex justify-content-center align-items-center bg-color-green pos-relative">
+    <header class="mobileheader Dis-flex justify-content-center align-items-center bg-color-green ">
         <h1 class="color-yellow">FOODMART</h1>
-        <a class="header-target pos-absolute" href="">
+        <a class="header-target pos-absolute" href="#Mobile-Nave">
             <img src="/assets/image/menu-svgrepo-com.svg" width="30px" alt="">
         </a>
+
+        <!-- mobile nave -->
+        <nav id="Mobile-Nave" class="mobile-nave bg-color-green flex-dir-column gap-3">
+
+            <div class="mobile-nave-head justify-content-between align-items-center gap-1 M-top-2">
+
+                <a href="#">
+                    <img src="/assets/image/delete-svgrepo-com.svg" width="25px" alt="">
+                </a>
+
+                <div class="mobile-nave-search pos-relative">
+                    <input class="bg-color-transparent border-white" type="text" placeholder="Search products">
+
+                    <select class="bg-color-transparent color-fff border-white" name="" id="">
+                        <option value="">All</option>
+                        <option value="">Categories 1</option>
+                        <option value="">Categories 2</option>
+                    </select>
+
+                    <img class="pos-absolute" src="/assets/image/search-header.svg" alt="search-header-icon"
+                        width="20px">
+
+                </div>
+
+            </div>
+
+            <ul class="li-style-type-none color-fff text-3 gap-1">
+                <li>Home</li>
+                <li>Fruit</li>
+                <li>Vegetable</li>
+            </ul>
+
+            <ul class="li-style-type-none color-fff text-3 gap-1">
+                <li>Profile</li>
+                <li>Wishlist</li>
+                <li>My Cart</li>
+            </ul>
+
+        </nav>
+
     </header>
 
     
@@ -287,7 +327,7 @@
                                             <option>3</option>
                                             <option>4</option>
                                         </select>
-                                        <small class="Pics pos-absolute">Pics</small>
+                                        <small class="Pics pos-absolute">Kg</small>
                                     </div>
                                 </div>
                                 <div class="Quantity pos-relative">
@@ -314,9 +354,9 @@
 
                         <div class="card-info Dis-flex flex-dir-column justify-content-between gap-1">
 
-                            <span class="text-3">Fruits</span>
+                            <span class="text-3">Juices</span>
 
-                            <strong class="text-5">Pomme</strong>
+                            <strong class="text-5">Brocoli Shake</strong>
 
                             <span class="star-box text-3">
                                 <span class="star">&#9733;</span>
@@ -344,7 +384,7 @@
                                             <option>3</option>
                                             <option>4</option>
                                         </select>
-                                        <small class="Pics pos-absolute">Pics</small>
+                                        <small class="Pics pos-absolute">Liter</small>
                                     </div>
                                 </div>
                                 <div class="Quantity pos-relative">
@@ -371,9 +411,9 @@
 
                         <div class="card-info Dis-flex flex-dir-column justify-content-between gap-1">
 
-                            <span class="text-3">Fruits</span>
+                            <span class="text-3">Bakers</span>
 
-                            <strong class="text-5">Pomme</strong>
+                            <strong class="text-5">Donuts</strong>
 
                             <span class="star-box text-3">
                                 <span class="star">&#9733;</span>
@@ -446,7 +486,8 @@
                     <li tabindex="1">Bakers</li>
                 </ul>
 
-                <section class="card-section Dis-flex justify-content-between align-items-center gap-1 M-bottom-5 ">
+                <section
+                    class="card-section Dis-flex justify-content-between align-items-center gap-1 M-bottom-5 pos-relative">
 
                     <div class="card-items color-green M-top-2 pos-relative border-white">
 
@@ -479,22 +520,23 @@
                             <div class="size-Quantity width-80 Dis-flex gap-2">
                                 <div class="size width-70">
                                     <label>size:</label>
-                                    <div class="size-box pos-relative">
-                                        <select class="size-select">
+                                    <div class="size-box  pos-relative">
+                                        <select class="bg-color-transparent border-white color-fff size-select">
                                             <option>1</option>
                                             <option>2</option>
                                             <option>3</option>
                                             <option>4</option>
                                         </select>
-                                        <small class="Pics color-initial pos-absolute">Pics</small>
+                                        <small class="Pics color-fff pos-absolute ">Kg</small>
                                     </div>
                                 </div>
                                 <div class="Quantity pos-relative">
                                     <label>Quantity</label>
                                     <div class="Quantity-box pos-relative width-70">
-                                        <input class="size-select width-100" type="text">
-                                        <small class="plus color-initial text-4 pos-absolute">+</small>
-                                        <small class="less color-initial text-4 pos-absolute">-</small>
+                                        <input class="size-select bg-color-transparent border-white width-100"
+                                            type="text">
+                                        <small class="plus color-fff text-4 pos-absolute">+</small>
+                                        <small class="less color-fff text-4 pos-absolute">-</small>
                                     </div>
                                 </div>
                             </div>
@@ -513,9 +555,9 @@
 
                         <div class="card-info Dis-flex flex-dir-column justify-content-between gap-1 color-fff">
 
-                            <span class="text-3">Fruits</span>
+                            <span class="text-3">Juices</span>
 
-                            <strong class="text-5">Pomme</strong>
+                            <strong class="text-5">Brocoli Shake</strong>
 
                             <span class="star-box text-3">
                                 <span class="star">&#9733;</span>
@@ -536,22 +578,23 @@
                             <div class="size-Quantity width-80 Dis-flex gap-2">
                                 <div class="size width-70">
                                     <label>size:</label>
-                                    <div class="size-box pos-relative">
-                                        <select class="size-select">
+                                    <div class="size-box  pos-relative">
+                                        <select class="bg-color-transparent border-white color-fff size-select">
                                             <option>1</option>
                                             <option>2</option>
                                             <option>3</option>
                                             <option>4</option>
                                         </select>
-                                        <small class="Pics color-initial pos-absolute">Pics</small>
+                                        <small class="Pics color-fff pos-absolute ">Liter</small>
                                     </div>
                                 </div>
                                 <div class="Quantity pos-relative">
                                     <label>Quantity</label>
                                     <div class="Quantity-box pos-relative width-70">
-                                        <input class="size-select width-100" type="text">
-                                        <small class="plus color-initial text-4 pos-absolute">+</small>
-                                        <small class="less color-initial text-4 pos-absolute">-</small>
+                                        <input class="size-select bg-color-transparent border-white width-100"
+                                            type="text">
+                                        <small class="plus color-fff text-4 pos-absolute">+</small>
+                                        <small class="less color-fff text-4 pos-absolute">-</small>
                                     </div>
                                 </div>
                             </div>
@@ -570,9 +613,9 @@
 
                         <div class="card-info Dis-flex flex-dir-column justify-content-between gap-1 color-fff">
 
-                            <span class="text-3">Fruits</span>
+                            <span class="text-3">Bakers</span>
 
-                            <strong class="text-5">Pomme</strong>
+                            <strong class="text-5">Donuts</strong>
 
                             <span class="star-box text-3">
                                 <span class="star">&#9733;</span>
@@ -591,24 +634,25 @@
 
 
                             <div class="size-Quantity width-80 Dis-flex gap-2">
-                                <div class="size width-80">
+                                <div class="size width-70">
                                     <label>size:</label>
-                                    <div class="size-box pos-relative">
-                                        <select class="size-select">
+                                    <div class="size-box  pos-relative">
+                                        <select class="bg-color-transparent border-white color-fff size-select">
                                             <option>1</option>
                                             <option>2</option>
                                             <option>3</option>
                                             <option>4</option>
                                         </select>
-                                        <small class="Pics  pos-absolute">Pics</small>
+                                        <small class="Pics color-fff pos-absolute ">Pics</small>
                                     </div>
                                 </div>
                                 <div class="Quantity pos-relative">
                                     <label>Quantity</label>
                                     <div class="Quantity-box pos-relative width-70">
-                                        <input class="size-select width-100" type="text">
-                                        <small class="plus color-initial text-4 pos-absolute">+</small>
-                                        <small class="less color-initial text-4 pos-absolute">-</small>
+                                        <input class="size-select bg-color-transparent border-white width-100"
+                                            type="text">
+                                        <small class="plus color-fff text-4 pos-absolute">+</small>
+                                        <small class="less color-fff text-4 pos-absolute">-</small>
                                     </div>
                                 </div>
                             </div>
@@ -618,8 +662,16 @@
                             </button>
                         </div>
                     </div>
+
+                    <img class="card-list-direction  card-list-direction-left pos-absolute"
+                        src="/assets/image/right-direction-circle-svgrepo-com (1).svg" alt="">
+
+                    <img class="card-list-direction card-list-direction-right pos-absolute"
+                        src="/assets/image/right-direction-circle-svgrepo-com.svg" alt="">
 
                 </section>
+
+
             </div>
         </section>
 
@@ -1043,6 +1095,7 @@
 
     </footer>
 
+    <!-- scroll fexed section -->
     <a href="#Header">
         <img class="up-scroll pos-fixed" src="/assets/image/up-direction-svgrepo-com.svg" alt="">
     </a>
